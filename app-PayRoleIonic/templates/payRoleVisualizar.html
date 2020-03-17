@@ -1,0 +1,68 @@
+<ion-view title="PayRole - Visualizar" id="page5" style="background-color:#EFE8F3;" class="visualizar">
+  <ion-content padding="true" class="has-header">
+    <div>
+
+
+      <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+      </style>
+
+
+
+      <h4>Restaurante</h4>
+
+      <table>
+        <tbody>
+          <tr>
+            <th>Nome</th>
+            <th>Valor</th>
+            <th>Status</th>
+          </tr>
+          <tr>
+            <td>Contato 1</td>
+            <td>R$25,00</td>
+            <td>Aguardando</td>
+          </tr>
+          <tr>
+            <td>Contato 2</td>
+            <td>R$32,50</td>
+            <td>Recebido</td>
+          </tr>
+          <tr>
+            <td>Contato 3</td>
+            <td>R$28,90</td>
+            <td>Aguardando</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+    </div>
+    <div id="payRoleVisualizar-button-bar2" class="button-bar"></div>
+    <div>
+      <label for="valor">Valor Total:</label>
+      <br>
+      <label for="fname">R$86,40</label>
+      <br>
+    </div>
+    <div id="payRoleVisualizar-button-bar4" class="button-bar">
+      <a ui-sref="payRole()" id="payRoleVisualizar-button10" style="color:#6B0B8A;border-radius:0px 5px 5px 5px;" class="button button-royal button-block button-icon icon ion-ios-arrow-back buttonBack"></a>
+      <button id="payRoleVisualizar-button13" style="color:#6B0B8A;" class="button button-royal button-block button-icon icon ion-android-done buttonDone"></button>
+      <a ui-sref="payRoleNovo()" id="payRoleVisualizar-button14" style="color:#6B0B8A;" class="button button-royal button-block button-icon icon ion-android-add buttonAdd"></a>
+    </div>
+  </ion-content>
+</ion-view>
